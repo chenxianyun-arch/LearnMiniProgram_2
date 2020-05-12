@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/profile/profile",
+    "pages/catagray/catagray",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "测试小程序",
+    "backgroundColor": "#0f0233",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "../miniprogram/images/profile.png",
+        "selectedIconPath": "../miniprogram/images/profile-active.png"
+      },
+      {
+        "pagePath": "pages/catagray/catagray",
+        "text": "分类",
+        "iconPath": "../miniprogram/images/catagray.png",
+        "selectedIconPath": "../miniprogram/images/catagray-active.png"
+      },
+      {
+        "pagePath": "pages/detail/detail",
+        "text": "详情",
+        "iconPath": "../miniprogram/images/details.png",
+        "selectedIconPath": "../miniprogram/images/details-active.png"
+      }
+  ],
+      "color": "#000000",
+      "selectedColor": "#d4237a"
+  }
+  
+}
