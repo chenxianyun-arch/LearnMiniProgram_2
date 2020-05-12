@@ -1,0 +1,16 @@
+<!--pages/compoment/compoment.wxml-->
+<text>pages/compoment/compoment.wxml</text>
+<!-- 320 乘以 240 -->
+<button class="handleChooseAlbum" bindtap="handleChooseAlbum">点击上传图片</button>
+<!-- 长按识别图片二维码 -->
+<image src="{{imgpath}}" 
+       show-menu-by-longpress 
+></image>
+<!-- 懒加载实现 -->
+<image src="http://tmp/wx83c119b2bd7fbb6d.o6zAJs3h5gY0HWyR-TsyuMnGTCDk.sTZGTAbpnf2a6d6da339e036230cd652568debd29577.png"  bindload="handleImgLoad" wx:for="{{10}}" lazy-load="{{true}}"></image>
+<view>__________________________</view>
+<!-- 显示相册里面的图片 -->
+
+
+
+

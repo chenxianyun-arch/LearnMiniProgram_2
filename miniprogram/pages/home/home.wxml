@@ -1,2 +1,4 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<!-- <text>pages/home/home.wxml</text> -->
+<button hover-class="hover_button" class="mybtn">我是button</button>
+<view hover-class="hover_box1" class="box1">我是box1</view>

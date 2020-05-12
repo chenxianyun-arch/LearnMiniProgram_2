@@ -1,1 +1,16 @@
 /* pages/home/home.wxss */
+view,.box{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  /* margin: 0 auto; */
+}
+ .hover_box1{
+  background-color: blue;
+}
+.mybtn{
+  background-color: red;
+}
+button,.hover_button{
+  background-color: yellow;
+}

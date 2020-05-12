@@ -3,7 +3,8 @@
     "pages/home/home",
     "pages/profile/profile",
     "pages/catagray/catagray",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/compoment/compoment"
   ],
   "window": {
     "navigationBarBackgroundColor": "#000000",

@@ -45,8 +45,8 @@
 				},
 				{
 					"id": 1,
-					"name": "pages/home/home",
-					"pathName": "pages/home/home",
+					"name": "pages/compoment/compoment",
+					"pathName": "pages/compoment/compoment",
 					"query": "",
 					"scene": null
 				}
