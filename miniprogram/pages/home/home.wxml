@@ -1,2 +1,8 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
+<scroll-view class="container1" scroll-x>
+  <view wx:for="{{10}}" class="item1">{{item}}</view>
+</scroll-view>
+<scroll-view class="container2" scroll-y>
+  <view wx:for="{{3}}" class="item2"></view>
+</scroll-view>

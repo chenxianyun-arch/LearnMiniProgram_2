@@ -1,1 +1,23 @@
 /* pages/home/home.wxss */
+.container1{
+  background-color: red;
+  white-space: nowrap;
+}
+.container2{
+  background-color: blue;
+  height: 200px;
+}
+.item1{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: purple;
+  display: inline-block;
+}
+.item2{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: orange;
+  /* display: inline-block; */
+}
