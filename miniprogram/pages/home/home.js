@@ -7,6 +7,18 @@ Page({
   data: {
 
   },
+  bind_input:function(event){
+    const msg = JSON.stringify(event)
+    console.log("input绑定成功"+event)
+  },
+  bind_focus:function(event){
+    const msg = JSON.stringify(event)
+    console.log("获取焦点"+msg)
+  },
+  bind_blur:function(event){
+    const msg = JSON.stringify(event)
+    console.log("失去焦点"+msg)
+  },
 
   /**
    * 生命周期函数--监听页面加载

@@ -1,2 +1,17 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
+<!-- 第二种组件 -->
+<view>第二种组件</view>
+
+<!-- 1.input的基本使用 -->
+<input></input>
+<!-- 2.默认属性 -->
+<input value="hahha"></input>
+<!-- 3.设置type属性：决定键盘类型 -->
+<input type="number"></input>
+<!-- 4.input绑定事件 -->
+<input bindinput="bind_input"
+      bindblur="bind_blur"
+      bindfocus="bind_focus"
+
+></input>
