@@ -1,2 +1,15 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
+<!-- mustache语法和wxml语法 -->
+<view class="clasgg" Class="Class">我是view</view>
+<view>{{message}}</view>
+<view>{{firstname}} {{lastname}}</view>
+<view>{{firstname + lastname}}</view>
+
+<!-- 显示当前时间 -->
+<view>{{nowtime}}</view>
+
+
+<!-- 绑定属性 -->
+<button bindtap="handleSwitchColor">点击改变下面的颜色</button>
+<view class="box {{isActive ? 'active':''}}">www</view>
