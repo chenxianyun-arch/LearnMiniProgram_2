@@ -1,6 +1,7 @@
 /* pages/home/home.wxss */
-
-
+/* 导入外部样式 */
+@import "../../style/box.wxss";
+@import "../../style/content.wxss";
 .box1{
   width: 100px;
   height: 100px;
