@@ -1,0 +1,4 @@
+<template name="contentTemplate">
+  <button size="mini" >{{btnText}}5555</button>
+ </template>
+ <!-- <include src="./123.wxml"/> -->

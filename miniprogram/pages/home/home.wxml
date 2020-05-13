@@ -1,2 +1,28 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
+<!-- 模板语法
+  template模板
+  为了达到代码的复用，使用模板，因为以前不支持自定义组件
+ -->
+
+ <!-- 达到复用的效果
+  没有用之前是不会渲染的
+ -->
+ <!-- <template name="contentTemplate">
+  <button size="mini" >{{btnText}}</button>
+ </template> -->
+
+<!-- 导入模板 -->
+ <import src="/wxml/template/template.wxml"/>
+ <import src="/wxml/template/123.wxml"/>
+ <template is="contentTemplate" data="{{btnText:'嘻嘻嘻'}}"/>
+ <template is="contentTemplate"/>
+ <template is="contentTemplate"/>
+ <template is="contentTemplate"/>
+ <template is="taowa"/>
+
+
+ <!-- template不可以递归导入，一个里面import另外
+      include就可以实现递归导入wxml
+  -->
+

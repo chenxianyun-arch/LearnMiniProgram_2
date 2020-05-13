@@ -1,0 +1,3 @@
+<template name="taowa">
+  <view>我是套娃模板</view>
+</template>
