@@ -1,1 +1,21 @@
 /* pages/home/home.wxss */
+
+
+.box1{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.box2{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: yellow;
+}
+
+
+.content1{
+  font-size: 23px;
+}
+.content2{
+  font-size: 46rpx;
+}

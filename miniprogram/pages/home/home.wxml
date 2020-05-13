@@ -1,2 +1,16 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
+<!-- 小程序增加了屏幕的自适应
+    前端屏幕的适配
+    em:
+    rem:
+    px：主要宽度就不会变了
+    小程序提供的手机单位适配
+    rpx:不仅可以设置背景，还可以设置字体大小
+    现在开发中主要是用rpx
+ -->
+ <view class="box1 ">哈哈哈</view>
+ <view class="box2">哈哈哈</view>
+ 
+ <view class="content1 ">哈哈哈</view>
+ <view class="content2">哈哈哈</view>
