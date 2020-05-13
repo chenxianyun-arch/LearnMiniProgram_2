@@ -1,0 +1,8 @@
+function dateFormart(time,format){
+  // var timestamp = new Date().getTime();
+  
+  return "---"
+}
+module.exports = {
+  dateFormart:dateFormart
+}

@@ -7,6 +7,22 @@ Page({
   data: {
 
   },
+  getTimeStamp:function(){
+    console.log("---")
+    var nowTimeStamp = new Date().getTime()
+    console.log(nowTimeStamp)
+    var date = new Date(nowTimeStamp);
+    var fullYear = date.getFullYear()+'-';
+    var hours = date.getHours()+':';
+    var month = (date.getMonth()+1)+ '-';
+    console.log(month)
+    var day = date.getDate()+" ";
+    console.log(day)
+    var minutes = date.getMinutes() + ':';
+    var mill = date.getSeconds();
+    var newDate = fullYear+month+day+hours+minutes+mill;
+    console.log('现在的时间为'+newDate)
+  },
 
   /**
    * 生命周期函数--监听页面加载

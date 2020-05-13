@@ -33,9 +33,9 @@
         "iconPath": "../miniprogram/images/details.png",
         "selectedIconPath": "../miniprogram/images/details-active.png"
       }
-  ],
-      "color": "#000000",
-      "selectedColor": "#d4237a"
-  }
-  
+    ],
+    "color": "#000000",
+    "selectedColor": "#d4237a"
+  },
+  "sitemapLocation": "sitemap6.json"
 }

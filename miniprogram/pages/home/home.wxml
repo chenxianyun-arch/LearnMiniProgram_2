@@ -1,2 +1,8 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
+<!-- 小程序中时间戳的格式化 -->
+<wxs src="../../wxs/wxs/dateFormat.wxs" module="format"/>
+<view>{{format.dateFormart(sss,sss)}}</view>
+
+
+<button bindtap="getTimeStamp">点击获取时间戳</button>
