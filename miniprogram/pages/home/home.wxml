@@ -1,2 +1,12 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
+<!-- wx:for遍历过程 -->
+ <!-- block标签 -->
+ <!-- block 不进行前端页面的渲染 -->
+ <!-- <block>
+  <view wx:for="{{3}}">我是view</view>
+ </block> -->
+ <!-- 给item和index取名字 -->
+ <!-- <view wx:for="{{movies}}" wx:for-item="movie" wx:for-index="i">{{movie}}+{{i}}</view> -->
+ <!-- 4.key 的作用,给每个view添加一个id，直接复用原来的数据，提高性能 -->
+ <view wx:for="['s','b']" wx:key="cxy">{{item}}</view>
