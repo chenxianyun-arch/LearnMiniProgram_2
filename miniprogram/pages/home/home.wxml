@@ -1,2 +1,16 @@
 <!--pages/home/home.wxml-->
+<!-- 设置样式的三种方式
+  1.绑定style
+  2.页面的样式 绑定class 通过类选择器进行设置样式
+  3.全局样式 只要绑定了该类的全局配置，都会生效
+   -->
 <text>pages/home/home.wxml</text>
+<!-- 1 行内样式只对这一行起作用-->
+<view style="width: 200px; height: 200px; background-color: yellow;">呵呵呵</view>
+<!-- 2 只对当前样式 -->
+<view class="box">哈哈哈</view>
+<!-- 3 -->
+<text class="heheheh">嘿嘿嘿</text>
+
+<!-- 4这几种的优先级：行内》全局》自己页面定义 -->
+<view class="contentview" style="background-color: red;">view组件</view>

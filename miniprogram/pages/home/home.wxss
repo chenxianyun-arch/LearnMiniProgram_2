@@ -1,1 +1,11 @@
 /* pages/home/home.wxss */
+/* 学习wxss类似于css
+  样式的设置：
+
+*/
+.box{
+  background-color: red;
+}
+.contentview{
+  background-color: yellow;
+}
