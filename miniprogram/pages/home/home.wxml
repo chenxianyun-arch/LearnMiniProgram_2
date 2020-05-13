@@ -1,2 +1,21 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
+<!-- wxs的作用
+    主要是普通js做不了的，因为wxs与js隔离了
+ -->
+ <!-- 1.第一种写法，直接写到wxml里面 -->
+<wxs module="info">
+  var name = "陈贤云"
+  var message = "hello world"
+  var sum = function(num1,num2){
+    return num1+num2
+  }
+  module.exports = {
+    name: name,
+    message: message,
+    sum: sum
+  }
+</wxs>
+<view>{{ info.name}}</view>
+<view>{{ info.message}}</view>
+<view>{{ info.sum(12,12)}}</view>
