@@ -1,0 +1,4 @@
+<!--componment/my-prop/my-prop.wxml-->
+<text>componment/my-prop/my-prop.wxml</text>
+<view>我是标题</view>
+<view>我是内容</view>
