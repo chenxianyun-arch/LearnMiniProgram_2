@@ -1,0 +1,3 @@
+<!--componments/myconts/myconts.wxml-->
+<view class="title">我是标题</view>
+<view class="content">我是自定义组件</view>

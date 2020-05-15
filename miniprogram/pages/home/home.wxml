@@ -1,2 +1,4 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
+<!-- 自定义组件 -->
+<mycpn></mycpn>

@@ -1,0 +1,9 @@
+/* componments/myconts/myconts.wxss */
+.title{
+  font-size: 23px;
+  font-weight: 700;
+  color: red;
+}
+.content{
+  color: blue;
+}
